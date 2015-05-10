@@ -12,7 +12,7 @@ import net.ichigotake.practice_20140511.timer.TimerView;
 import butterknife.ButterKnife;
 import butterknife.InjectView;
 
-public class MainActivity extends AppCompatActivity {
+public class TimerActivity extends AppCompatActivity {
 
     @InjectView(R.id.activity_main_timer)
     TimerView timerView;

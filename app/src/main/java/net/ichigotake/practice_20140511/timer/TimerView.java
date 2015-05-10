@@ -44,4 +44,9 @@ public class TimerView extends FrameLayout {
                 between ? R.color.timer_status_valid : R.color.timer_status_invalid);
     }
 
+    /** visible for testing */
+    public String getText() {
+        return timerDisplay.getText().toString();
+    }
+
 }

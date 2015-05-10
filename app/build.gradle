@@ -19,6 +19,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    packagingOptions {
+        exclude 'LICENSE.txt'
+    }
+}
+
+apply plugin: 'spoon'
+
+spoon {
+    // for debug output
+    debug = true
 }
 
 dependencies {
@@ -26,5 +37,12 @@ dependencies {
     compile 'com.android.support:appcompat-v7:22.1.0'
     compile 'com.android.support:support-annotations:22.1.0'
     compile 'com.jakewharton:butterknife:6.1.0'
+
+    // For UI test
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.0'
+    androidTestCompile 'com.android.support.test:testing-support-lib:0.1'
+    androidTestCompile 'com.squareup.spoon:spoon-client:1.1.9'
+
+    // For JUnit test
     testCompile "org.robolectric:robolectric:3.0-rc2"
 }
