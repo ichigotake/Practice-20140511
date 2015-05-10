@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="timer_status_valid">@android:color/holo_blue_dark</color>
+    <color name="timer_status_invalid">@android:color/holo_red_dark</color>
+
+</resources>

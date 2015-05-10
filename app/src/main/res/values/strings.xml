@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Practice-20140511</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="timer_randomize">Randomize!</string>
+    <string name="timer_display">%1$dh &lt;= %2$dh &lt; %3$dh</string>
+
 </resources>
