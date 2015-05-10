@@ -2,6 +2,8 @@
 
 Work in progress
 
+<img src="art/testTimerActivity_randomize.gif" width="512px">
+
 ## Practice
 
 以下の条件を満たすこと。
