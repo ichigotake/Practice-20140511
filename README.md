@@ -1,7 +1,5 @@
 # Practice-20140511
 
-Work in progress
-
 <img src="art/testTimerActivity_randomize.gif" width="512px">
 
 ## Practice
@@ -29,3 +27,6 @@ Work in progress
 open app/build/spoon/debug/index.html
 ```
 
+## Contribute
+
+プロジェクト構成に関する特記すべき事項は [CONTRIBUTING.md](CONTRIBUTING.md) を参照
