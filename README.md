@@ -30,3 +30,7 @@ open app/build/spoon/debug/index.html
 ## Contribute
 
 プロジェクト構成に関する特記すべき事項は [CONTRIBUTING.md](CONTRIBUTING.md) を参照
+
+## Links
+
+- [ichigotake/Practice-20140511](https://github.com/ichigotake/Practice-20140511)
